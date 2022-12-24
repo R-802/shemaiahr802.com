@@ -29,11 +29,10 @@
         <link
             href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic|Inconsolata"
             rel="stylesheet">
+
         <script type="text/javascript"
-            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-        <script type="text/x-mathjax-config">
-    </script>
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config"></script>
 
         <!-- Google tag (gtag.js) -->
         <script async
@@ -42,14 +41,19 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
+        gtag('config', 'G-G2FXDVWH1P');</script>
+        <!-- PROJECT ATLAS FUNCTIONALITY -->
+        <script src="../posts\Atlas\atlas.js"></script>
+        <script src="../posts\Atlas\index.js"></script>
 
-        gtag('config', 'G-G2FXDVWH1P');
-    </script>
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-        <!-- Favicons
-    ================================================== -->
+        <style>
+            #input {
+                width: 100%;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+
+        </style>
     </head>
 
     <body>
@@ -67,16 +71,24 @@
             </div>
 
             <div class="twelve columns offset-by-one content">
-
                 <h1>Atlas</h1>
-
                 <p><em>Altas is a general purpose virtual assistant, built with
                         OpenAi's Generative Pre-trained Transformer 3 (GPT-3)
                         and Amazon's Polly neural
                         text to speech engine. </em></p>
 
-            </div>
+                <form id="input" method="GET" action="/read">
+                    <div>
+                        <textarea id="text" maxlength="1000" minlength="1"
+                            name="text"
+                            placeholder="Type some text here..."></textarea>
+                    </div>
+                    <input type="submit" value="Read" id="submit" />
+                </form>
 
+                <audio id="player"></audio>
+
+            </div>
         </div>
 
         <!-- JS
