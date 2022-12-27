@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    
+<copyright>All written content on this site is provided under a
+                    Creative Commons ShareAlike license. All code is
+                    provided under a MIT license unless otherwise stated.</copyright>
+
+<channel>
+  <title>Index</title>
+  <link>https://www.shemaiahr802.com</link>
+  <description></description>
+
+  <item>
+    <title>Projects</title>
+    <link>https://www.shemaiahr802.com/projects.html</link>
+    <description></description>
+  </item>
+
+  <item>
+    <title>Atlas</title>
+    <link>https://shemaiahr802.com/posts/atlas.html</link>
+    <description></description>
+  </item>
+
+  <item>
+    <title>Sol - A 1kN Hybrid Rocket Engine</title>
+    <link>https://shemaiahr802.com/posts/sol.html</link>
+    <description></description>
+  </item>
+
+  <item>
+    <title>Kuiper</title>
+    <link>https://shemaiahr802.com/posts/kuiper.html</link>
+    <description></description>
+  </item>
+
+</channel>
+
+</rss>

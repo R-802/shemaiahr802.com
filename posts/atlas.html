@@ -1,101 +1,99 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-    <!--<![endif]-->
+<!--<![endif]-->
 
-    <head>
+<head>
 
-        <!-- Basic Page Needs
+    <!-- Basic Page Needs
   ================================================== -->
-        <meta charset="utf-8">
-        <title>Atlas</title>
-        <meta name="description" content="Personal Blog">
-        <meta name="author" content="Shemaiah Rangitaawa">
+    <meta charset="utf-8">
+    <title>Atlas</title>
+    <meta name="description" content="Personal Blog">
+    <meta name="author" content="Shemaiah Rangitaawa">
 
-        <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   ================================================== -->
-        <meta name="viewport" content="width=device-width, initial-scale=1,
+    <meta name="viewport" content="width=device-width, initial-scale=1,
             maximum-scale=1">
 
-        <!-- CSS
+    <!-- CSS
   ================================================== -->
-        <link rel="stylesheet" href="../css/base.css">
-        <link rel="stylesheet" href="../css/skeleton.css">
-        <link rel="stylesheet" href="../css/typography.css">
-        <link rel="stylesheet" href="../css/layout.css">
-        <link rel="stylesheet" href="../css/syntax.css">
-        <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/syntax.css">
+    <link rel="stylesheet" href="../css/custom.css">
 
-        <link
-            href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic|Inconsolata"
-            rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,400italic|Inconsolata"
+        rel="stylesheet">
 
-        <script type="text/javascript"
-            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script type="text/x-mathjax-config"></script>
+    <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config"></script>
 
-        <!-- Google tag (gtag.js) -->
-        <script async
-            src="https://www.googletagmanager.com/gtag/js?id=G-G2FXDVWH1P"></script>
-        <script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2FXDVWH1P"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-G2FXDVWH1P');</script>
-        <!-- PROJECT ATLAS FUNCTIONALITY -->
-        <script src="../posts\Atlas\atlas.js"></script>
-        <script src="../posts\Atlas\index.js"></script>
+    <!-- PROJECT ATLAS FUNCTIONALITY -->
+    <script src="../posts\Atlas\atlas.js"></script>
+    <script src="../posts\Atlas\index.js"></script>
 
-        <style>
-            #input {
-                width: 100%;
-                margin: 8px 0;
-                box-sizing: border-box;
-            }
+    <style>
+        #input {
+            width: 100%;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
 
-        </style>
-    </head>
-
-    <body>
-        <div class="container">
-            <div class="three columns sidebar">
-                <nav>
-                    <h3 id="logo">Shemaiah Rangitaawa</h3>
-                    <ul>
-                        <li><a href="../index.html">Index</a></li>
-                        <li><a href="../projects.html">Projects</a></li>
-                        <li><a href="https://github.com/R-802">Github</a></li>
-                    </ul>
-                </nav>
-                &nbsp;
-            </div>
-
-            <div class="twelve columns offset-by-one content">
-                <h1>Atlas</h1>
-                <p><em>Altas is a general purpose virtual assistant, built with
-                        OpenAi's Generative Pre-trained Transformer 3 (GPT-3)
-                        and Amazon's Polly neural
-                        text to speech engine. </em></p>
-
-                <form id="input" method="GET" action="/read">
-                    <div>
-                        <textarea id="text" maxlength="1000" minlength="1"
-                            name="text"
-                            placeholder="Type some text here..."></textarea>
-                    </div>
-                    <input type="submit" value="Read" id="submit" />
-                </form>
-
-                <audio id="player"></audio>
-
-            </div>
+<body>
+    <div class="container">
+        <div class="three columns sidebar">
+            <nav>
+                <h3 id="logo">Shemaiah Rangitaawa</h3>
+                <ul>
+                    <li><a href="../index.html">Index</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/shemaiah-rangitaawa-b24b18233">Linkedin</a></li>
+                    <li><a href="https://github.com/R-802">Github</a></li>
+                    <li><a href="rss.xml">RSS</a></li>
+                </ul>
+            </nav>
+            &nbsp;
         </div>
 
-        <!-- JS
+        <div class="twelve columns offset-by-one content">
+            <h1>Atlas</h1>
+            <p><em>Altas is a general purpose virtual assistant, built with
+                    OpenAi's Generative Pre-trained Transformer 3 (GPT-3)
+                    and Amazon's Polly neural
+                    text to speech engine. </em></p>
+            <h2 style="background-color: red;">This application is currently being built...</h2>
+
+            <form id="input" method="GET" action="/read">
+                <div>
+                    <textarea id="text" maxlength="1000" minlength="1" name="text"
+                        placeholder="Type some text here..."></textarea>
+                </div>
+                <input type="submit" value="Read" id="submit" />
+            </form>
+
+            <audio id="player"></audio>
+
+        </div>
+    </div>
+
+    <!-- JS
         ================================================== -->
-        <script src="https://code.jquery.com/jquery-3.6.1.js"
-            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-            crossorigin="anonymous"></script>
-        <!-- End Document
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- End Document
     ================================================== -->
-    </body>
+</body>
