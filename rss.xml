@@ -6,9 +6,9 @@
                     provided under a MIT license unless otherwise stated.</copyright>
 
 <channel>
-  <title>Index</title>
+  <title>shemaiahr802.com</title>
   <link>https://www.shemaiahr802.com</link>
-  <description></description>
+  <description>I like to build things...</description>
 
   <item>
     <title>Projects</title>
@@ -19,19 +19,19 @@
   <item>
     <title>Atlas</title>
     <link>https://shemaiahr802.com/posts/atlas.html</link>
-    <description></description>
+    <description>Altas is a general purpose virtual assistant, built with OpenAi's Generative Pre-trained Transformer 3 (GPT-3) and Amazon's Polly neural text to speech engine.</description>
   </item>
 
   <item>
     <title>Sol - A 1kN Hybrid Rocket Engine</title>
     <link>https://shemaiahr802.com/posts/sol.html</link>
-    <description></description>
+    <description>Sol is a 1kN Hybrid rocket engine designed as prerequisition and validaition to the specifications of an upcoming project, Kuiper.</description>
   </item>
 
   <item>
     <title>Kuiper</title>
     <link>https://shemaiahr802.com/posts/kuiper.html</link>
-    <description></description>
+    <description>Coming soon...</description>
   </item>
 
 </channel>
