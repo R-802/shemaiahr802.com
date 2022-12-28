@@ -1,38 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    
-<copyright>All written content on this site is provided under a
-                    Creative Commons ShareAlike license. All code is
-                    provided under a MIT license unless otherwise stated.</copyright>
 
-<channel>
-  <title>shemaiahr802.com</title>
-  <link>https://www.shemaiahr802.com</link>
-  <description>I like to build things...</description>
+  <copyright>All written content on this site is provided under a
+    Creative Commons ShareAlike license. All code is
+    provided under a MIT license unless otherwise stated.</copyright>
 
-  <item>
-    <title>Projects</title>
-    <link>https://www.shemaiahr802.com/projects.html</link>
-    <description>Projects Directory</description>
-  </item>
+  <channel>
+    <title>shemaiahr802.com</title>
+    <link>https://www.shemaiahr802.com</link>
+    <description>I like to build things...</description>
 
-  <item>
-    <title>Atlas</title>
-    <link>https://shemaiahr802.com/posts/atlas.html</link>
-    <description>Altas is a general purpose virtual assistant, built with OpenAi's Generative Pre-trained Transformer 3 (GPT-3) and Amazon's Polly neural text to speech engine.</description>
-  </item>
+    <item>
+      <title>Projects</title>
+      <link>https://www.shemaiahr802.com/projects.html</link>
+      <description>Projects Directory</description>
+    </item>
 
-  <item>
-    <title>Sol - A 1kN Hybrid Rocket Engine</title>
-    <link>https://shemaiahr802.com/posts/sol.html</link>
-    <description>Sol is a 1kN Hybrid rocket engine designed as prerequisition and validaition to the specifications of an upcoming project, Kuiper.</description>
-  </item>
+    <item>
+      <title>Atlas</title>
+      <link>https://shemaiahr802.com/posts/atlas.html</link>
+      <description>Altas is a general purpose virtual assistant, built with OpenAi's Generative
+        Pre-trained Transformer 3 (GPT-3) and Amazon's Polly neural text to speech engine.</description>
+    </item>
 
-  <item>
-    <title>Kuiper</title>
-    <link>https://shemaiahr802.com/posts/kuiper.html</link>
-    <description>Coming soon...</description>
-  </item>
-</channel>
+    <item>
+      <title>Sol - A 1kN Hybrid Rocket Engine</title>
+      <link>https://shemaiahr802.com/posts/sol.html</link>
+      <description>Sol is a 1kN Hybrid rocket engine designed as prerequisition and validaition to
+        the specifications of an upcoming project, Kuiper.</description>
+    </item>
+
+    <item>
+      <title>Kuiper</title>
+      <link>https://shemaiahr802.com/posts/kuiper.html</link>
+      <description>Coming soon...</description>
+    </item>
+  </channel>
 
 </rss>
