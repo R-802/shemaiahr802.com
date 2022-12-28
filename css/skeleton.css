@@ -441,5 +441,6 @@
     display: block;
     overflow: hidden;
     visibility: hidden;
-    width: 0
+    width: 0;
+    height: 0
 }
