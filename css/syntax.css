@@ -69,9 +69,7 @@ pre.sourceCode span.fu {
     color: #06287e
 }
 
-pre.sourceCode span.re {
-    color: #06287e
-}
+pre.sourceCode span.re {}
 
 pre.sourceCode span.er {
     color: red;
