@@ -24,13 +24,7 @@ code,
 del,
 dfn,
 em,
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-    /* ie8 */
-}
-
+img,
 ins,
 kbd,
 q,
@@ -428,7 +422,6 @@ input::-moz-focus-inner {
     border: 0;
     padding: 0
 }
-
 
 ul.tabs {
     display: block;
