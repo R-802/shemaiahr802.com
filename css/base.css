@@ -24,7 +24,10 @@ code,
 del,
 dfn,
 em,
-img,
+img {
+    max-width: 100%;
+}
+
 ins,
 kbd,
 q,

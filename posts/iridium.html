@@ -5,20 +5,17 @@
 
 <head>
 
-    <!-- Basic Page Needs
-  ================================================== -->
+    <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <title>Iridium</title>
     <meta name="description" content="Personal Blog">
     <meta name="author" content="Shemaiah Rangitaawa">
 
-    <!-- Mobile Specific Metas
-  ================================================== -->
+    <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1,
             maximum-scale=1">
 
-    <!-- CSS
-  ================================================== -->
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/typography.css">
@@ -61,16 +58,74 @@
         <div class="twelve columns offset-by-one content">
             <h1>Iridium</h1>
 
+            <p><em>Iridium was a pilot project designed to test and validate the performance of 3D printed unmanned
+                    aerial vehicles (UAV).</em></p>
 
+            <h4>Requirements</h4>
 
+            <p>The main objective was to see whether low cost hobby grade FDM based 3D printers and materials
+                could be
+                used produce aircraft with adequate performance for long range autonomous missions. Capabilities
+                included but
+                were not limited to:
+            </p>
+
+            <ul>
+                <li><strong>Return to home (RTH)</strong></li>
+                <li><strong>Long range communication</strong></li>
+                <li><strong>Long battery life</strong></li>
+                <li><strong>Autonomous flight</strong> - required a flight controller (FC) and GPS</li>
+                <li><strong>Live Telemetry</strong> - required a telemetry radio or live comms feedback from the
+                    FC</li>
+                <li><strong>Real-time visual feedback</strong> - required a camera and video transmitter (VTX)
+                </li>
+            </ul>
+
+            <p>These requirements were met by implementation of the following hardware:</p>
+            <ul>
+                <li><strong><a href="http://www.mateksys.com/?portfolio=f405-wte#tab-id-5">MATEKSYS 405-WTE</a></strong>
+                    - STM32F405RGT6, ICM42688P, SPL06, OSD, ESP WIFI telemetry/ELRS 2.4G receiver, 6xUARTs, 12x PWM, 1xI2C, INAV & AruduPilot support.
+                </li>
+
+                <li><strong><a href="http://www.mateksys.com/?portfolio=m8q-5883">MATEKSYS GPS & COMPASS MODULE
+                            M8Q-5883</a></strong>
+                    - Ublox SAM-M8Q GPS, GLONASS, Galileo receiver with antenna. Compass QMC5883L integrated.
+                </li>
+
+                <li><strong><a href="https://www.runcam.com/download/Phoenix2/Phoenix_2_Manual.pdf">RunCam Phoenix 2</a></strong>
+                    - 1/2" COMS Sensor, 2.1mm (M12) FOV155° (4:3), DC 5-36V
+                </li>
+
+                <li><strong><a href="https://www.akktek.com/akk-fx2-ultimate-mini.html">AKK FX2 5.8GHz 1200mW VTX</a></strong>
+                    - 25mW/200mW/600mW/1200mW power switchable, smart audio, 5.8GHz 40CH, 7-24V input
+                </li>
+            </ul>
+
+            <hr>
+
+            <h4>Design</h4>
+
+            <p>To achieve long range capabilities I chose to opt for the relatively new high-performance radio
+                control link <a href="https://github.com/ExpressLRS/ExpressLRS">ExpressLRS</a> or ELRS for short. Not
+                only is the hardware required for implementation low-cost in comparison to that of other
+                long range protocols, ELRS also has the added benefit of being open source, therefore constantly
+                being updated and improved upon. Hardware support is vast, the community is growing, and
+                manufacturers are constantly pumping out new products so the choice was only obvious.
+            </p>
+
+            <p>Because I didn't want to spend months on this project, I decided against designing a sutible
+                aircraft from scratch and instead scoured the internet for a suitable design. I found a few designs that
+                I liked, but I ended up with <a href="https://www.eclipson-airplanes.com/ebw-160-uav">Eclipsons EBW-160</a> as it
+                was a relatively simple design and had appropriate prerouted channels and fittings for the
+                hardware. It was also cut to perfectly fit inside the print dimensions of an Ender 3 pro, which was the
+                printer I was working with at the time.
+            </p>
 
         </div>
     </div>
 
-    <!-- JS
-        ================================================== -->
+    <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <!-- End Document
-    ================================================== -->
+    <!-- End Document -->
 </body>
