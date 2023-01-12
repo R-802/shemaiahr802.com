@@ -11,27 +11,40 @@
     <description>I like to build things...</description>
 
     <item>
-      <title>Projects</title>
+      <title>
+        Projects</title>
       <link>https://www.shemaiahr802.com/projects.html</link>
       <description>Projects Directory</description>
     </item>
 
     <item>
-      <title>Atlas</title>
+      <title>
+        Atlas</title>
       <link>https://shemaiahr802.com/posts/atlas.html</link>
-      <description>Altas is a general purpose virtual assistant, built with OpenAi's Generative
+      <description>Altas is a general purpose
+        virtual assistant, built with OpenAi's Generative
         Pre-trained Transformer 3 (GPT-3) and Amazon's Polly neural text to speech engine.</description>
     </item>
 
     <item>
-      <title>Sol - A 1kN Hybrid Rocket Engine</title>
+      <title>Sol
+        - A 1kN Hybrid Rocket Engine</title>
       <link>https://shemaiahr802.com/posts/sol.html</link>
-      <description>Sol is a 1kN Hybrid rocket engine designed as prerequisition and validaition to
+      <description>Sol is a
+        1kN Hybrid rocket engine designed as prerequisition and validaition to
         the specifications of an upcoming project, Kuiper.</description>
     </item>
 
     <item>
-      <title>Kuiper</title>
+      <title>Iridium - A 3D printed small scale UAV</title>
+      <link>
+        https://shemaiahr802.com/posts/iridium.html</link>
+      <description></description>
+    </item>
+
+    <item>
+      <title>
+        Kuiper</title>
       <link>https://shemaiahr802.com/posts/kuiper.html</link>
       <description>Coming soon...</description>
     </item>
