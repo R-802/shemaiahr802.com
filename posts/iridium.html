@@ -64,24 +64,21 @@
             <h4>Requirements</h4>
 
             <p>The main objective was to see whether low cost hobby grade FDM based 3D printers and materials
-                could be
-                used produce aircraft with adequate performance for long range autonomous missions. Capabilities
-                included but
-                were not limited to:
+                could be used produce aircraft with adequate performance for long range autonomous missions. 
+                Capabilities included but were not limited to:
             </p>
 
             <ul>
+                <li><strong>Autonomous flight</strong> - required a flight controller (FC) and GPS</li>
+                <li><strong>Live Telemetry</strong> - required a telemetry radio or live comms feedback from the FC</li>
+                <li><strong>Real-time visual feedback</strong> - required a camera and video transmitter (VTX)</li>
                 <li><strong>Return to home (RTH)</strong></li>
                 <li><strong>Long range communication</strong></li>
                 <li><strong>Long battery life</strong></li>
-                <li><strong>Autonomous flight</strong> - required a flight controller (FC) and GPS</li>
-                <li><strong>Live Telemetry</strong> - required a telemetry radio or live comms feedback from the
-                    FC</li>
-                <li><strong>Real-time visual feedback</strong> - required a camera and video transmitter (VTX)
-                </li>
             </ul>
 
-            <p>These requirements were met by implementation of the following hardware:</p>
+            <p>The above requirements were met by implementation of the following hardware:</p>
+
             <ul>
                 <li><strong><a href="http://www.mateksys.com/?portfolio=f405-wte#tab-id-5">MATEKSYS 405-WTE</a></strong>
                     - STM32F405RGT6, ICM42688P, SPL06, OSD, ESP WIFI telemetry/ELRS 2.4G receiver, 6xUARTs, 12x PWM, 1xI2C, INAV & AruduPilot support.
@@ -92,7 +89,7 @@
                     - Ublox SAM-M8Q GPS, GLONASS, Galileo receiver with antenna. Compass QMC5883L integrated.
                 </li>
 
-                <li><strong><a href="https://www.runcam.com/download/Phoenix2/Phoenix_2_Manual.pdf">RunCam Phoenix 2</a></strong>
+                <li><strong><a href="https://www.runcam.com/download/Phoenix2/Phoenix_2_Manual.pdf">RUNCAM PHOENIX 2</a></strong>
                     - 1/2" COMS Sensor, 2.1mm (M12) FOV155° (4:3), DC 5-36V
                 </li>
 
@@ -100,6 +97,13 @@
                     - 25mW/200mW/600mW/1200mW power switchable, smart audio, 5.8GHz 40CH, 7-24V input
                 </li>
             </ul>
+
+            <p style="color: red;"><em>The complete BOM will be linked <a href="https://www.akktek.com/akk-fx2-ultimate-mini.html">here</a></em></p>
+
+            <p>Many of the resources and hardware used in this project are chosen not because of its performance but because of its low cost, rigorous use will not be recommened. 
+                The aircraft is designed to be disassembled and repurposed, so as such, the hardware is not designed to be used in a production environment, 
+                this is project is nothing but a proof of concept (and mostly just for fun).
+            </p>
 
             <hr>
 
