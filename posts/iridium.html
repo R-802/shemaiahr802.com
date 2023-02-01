@@ -94,7 +94,7 @@
                     - 1/2" COMS Sensor, 2.1mm (M12) FOV155° (4:3), DC 5-36V
                 </li>
 
-                <li><strong><a href="https://www.akktek.com/akk-fx2-ultimate-mini.html">AKK FX2 5.8GHz 1200mW VTX</a></strong>
+                <li><strong><a href="https://www.akktek.com/akk-fx2-ultimate-mini.html">AKK FX2 VTX</a></strong>
                     - 25mW/200mW/600mW/1200mW power switchable, smart audio, 5.8GHz 40CH, 7-24V input
                 </li>
 
@@ -107,7 +107,7 @@
 
             <p>Many of the resources and hardware used in this project are chosen not because of its performance but because of its low cost, rigorous use is not recommened. 
                 The aircraft in its current state is designed to be disassembled and repurposed, and as such, the hardware is not designed to be used in a production environment. 
-                This is project is nothing but a proof of concept (and mostly just for fun).
+                This is project is nothing but a proof of concept (but mostly just for fun).
             </p>
 
             <hr>
@@ -117,9 +117,9 @@
             <p>To achieve long range capabilities I chose to opt for the relatively new high-performance radio
                 control link <a href="https://github.com/ExpressLRS/ExpressLRS">ExpressLRS</a>. Not
                 only is the hardware required for implementation low-cost in comparison to that of other
-                long range protocols, ELRS also has the added benefit of being open source, therefore constantly
+                long range protocols, ELRS also has the added benefit of being new and open source, therefore constantly
                 being updated and improved upon. Hardware support is vast, the community is growing, and
-                manufacturers are constantly pumping out new products so the choice was obvious.
+                manufacturers are constantly pumping out new products so the choice was only obvious.
             </p>
 
             <p>Because I didn't want to spend months on this project, I decided against designing an
@@ -128,6 +128,15 @@
                 was a relatively simple design and had appropriate prerouted channels and fittings for the
                 hardware. It was also cut to perfectly fit inside the print dimensions of an Ender 3 pro, which was the
                 printer I was working with at the time.
+            </p>
+
+            <p>After some minor modifications to the design, I was able to get most of the parts to fit. The
+                modifications included the addition of a isolated gps port (to protect the module from interference) and a 
+                remodeled vtx bay because the original design was too small for the FX2.
+            </p>
+
+            <p>The main body was put together over a couple hours, the FC was flashed with the latest version of INAV, programmed with 
+                fixed wing parameters and tuned accordingly, the craft was then ready for its maiden voyage.
             </p>
 
         </div>
